@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Timetable | CLAT 2025 Roadmap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">CLAT 2025 ROADMAP</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="roadmap.html">Month-wise Plan</a>
+            <a href="daily.html" class="active">Daily Timetable</a>
+            <a href="subjects.html">Subject Strategies</a>
+            <a href="mocks.html">Mock Strategy</a>
+            <a href="revision.html">Revision</a>
+            <a href="rules.html">Hardcore Rules</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Daily Timetable — Three Versions</h1>
+            <p style="color: var(--text-muted);">Choose the plan that fits your day</p>
+        </header>
+
+        <div class="toggle-container">
+            <button class="toggle-btn active" data-toggle="plan-4h">4-Hour Plan</button>
+            <button class="toggle-btn" data-toggle="plan-6h">6-Hour Plan</button>
+            <button class="toggle-btn" data-toggle="plan-8h">8-Hour Plan</button>
+        </div>
+
+        <div id="plan-4h" class="toggle-content active">
+            <div class="card">
+                <h2>VERSION A: 4-Hour Plan (Minimum Survival Mode)</h2>
+                <p>For days when life interferes — this is the floor, not the standard.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time Block</th>
+                            <th>Duration</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>6:00 – 6:30 AM</td>
+                            <td>30 min</td>
+                            <td>Current Affairs (The Hindu reading + register update)</td>
+                        </tr>
+                        <tr>
+                            <td>6:30 – 7:30 AM</td>
+                            <td>60 min</td>
+                            <td>English: 2 RC passages (timed) + 10 vocabulary</td>
+                        </tr>
+                        <tr>
+                            <td>7:30 – 8:15 AM</td>
+                            <td>45 min</td>
+                            <td>Legal Reasoning: 15 principle sets</td>
+                        </tr>
+                        <tr>
+                            <td>8:15 – 9:00 AM</td>
+                            <td>45 min</td>
+                            <td>Logical Reasoning: 1 puzzle + 10 CR questions</td>
+                        </tr>
+                        <tr>
+                            <td>Evening 6:00 – 6:30 PM</td>
+                            <td>30 min</td>
+                            <td>Quant: 15 questions</td>
+                        </tr>
+                        <tr>
+                            <td>Evening 6:30 – 7:00 PM</td>
+                            <td>30 min</td>
+                            <td>CA Register update + Revision of yesterday's notes</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Non-Negotiable Even on 4-Hour Days:</h3>
+                <ul>
+                    <li>CA register entry</li>
+                    <li>Minimum 2 passages</li>
+                    <li>Minimum 10 legal principle sets</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="plan-6h" class="toggle-content">
+            <div class="card">
+                <h2>VERSION B: 6-Hour Plan (Serious Aspirant — Default Mode)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time Block</th>
+                            <th>Duration</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5:30 – 6:00 AM</td>
+                            <td>30 min</td>
+                            <td>Wake + Freshen + Review previous night's notes</td>
+                        </tr>
+                        <tr>
+                            <td>6:00 – 7:00 AM</td>
+                            <td>60 min</td>
+                            <td>Current Affairs (The Hindu full reading + register)</td>
+                        </tr>
+                        <tr>
+                            <td>7:00 – 8:30 AM</td>
+                            <td>90 min</td>
+                            <td>English: 4 RC passages (timed) + Para-jumbles/Sentence correction</td>
+                        </tr>
+                        <tr>
+                            <td>8:45 – 10:15 AM</td>
+                            <td>90 min</td>
+                            <td>Legal Reasoning: 25 principle sets (timed: 3 min/set max)</td>
+                        </tr>
+                        <tr>
+                            <td>4:00 – 5:00 PM</td>
+                            <td>60 min</td>
+                            <td>Logical Reasoning: 2 puzzles + 15 CR questions</td>
+                        </tr>
+                        <tr>
+                            <td>5:00 – 5:45 PM</td>
+                            <td>45 min</td>
+                            <td>Quantitative Techniques: 20 questions</td>
+                        </tr>
+                        <tr>
+                            <td>5:45 – 6:00 PM</td>
+                            <td>15 min</td>
+                            <td>Micro-revision: today's CA entries + 1 legal topic summary</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><strong>Weekly addition:</strong> 2 mocks per week (Tuesday + Saturday), replacing 6-hour plan with full 2-hour mock + 2-hour analysis.</p>
+            </div>
+        </div>
+
+        <div id="plan-8h" class="toggle-content">
+            <div class="card">
+                <h2>VERSION C: 8-Hour Plan (Hardcore Selection Mode)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time Block</th>
+                            <th>Duration</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5:00 – 5:30 AM</td>
+                            <td>30 min</td>
+                            <td>Wake-up + previous day recall</td>
+                        </tr>
+                        <tr>
+                            <td>5:30 – 6:30 AM</td>
+                            <td>60 min</td>
+                            <td>Current Affairs: The Hindu + one supplementary source</td>
+                        </tr>
+                        <tr>
+                            <td>6:30 – 8:00 AM</td>
+                            <td>90 min</td>
+                            <td>English: 5 passages (timed) + grammar drills</td>
+                        </tr>
+                        <tr>
+                            <td>8:20 – 10:00 AM</td>
+                            <td>100 min</td>
+                            <td>Legal Reasoning: 30–35 principle sets + 15 min PYQ review</td>
+                        </tr>
+                        <tr>
+                            <td>10:15 – 11:15 AM</td>
+                            <td>60 min</td>
+                            <td>Logical Reasoning: 3 puzzles + 20 CR questions</td>
+                        </tr>
+                        <tr>
+                            <td>11:15 AM – 12:00 PM</td>
+                            <td>45 min</td>
+                            <td>Quantitative Techniques: 25 questions</td>
+                        </tr>
+                        <tr>
+                            <td>1:00 – 2:00 PM</td>
+                            <td>60 min</td>
+                            <td>CA: Static GK / Constitutional revision / Monthly CA deep study</td>
+                        </tr>
+                        <tr>
+                            <td>2:00 – 3:00 PM</td>
+                            <td>60 min</td>
+                            <td>Weak subject dedicated drilling</td>
+                        </tr>
+                        <tr>
+                            <td>3:00 – 5:00 PM</td>
+                            <td>120 min</td>
+                            <td>Mock days: Full Mock (2:00–4:00 PM)</td>
+                        </tr>
+                        <tr>
+                            <td>5:00 – 7:00 PM</td>
+                            <td>120 min</td>
+                            <td>Mock Analysis (mock days) OR Subject Revision (non-mock days)</td>
+                        </tr>
+                        <tr>
+                            <td>7:00 – 7:30 PM</td>
+                            <td>30 min</td>
+                            <td>CA Register final update + day's error log entry</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Rest Protocol:</h3>
+                <ul>
+                    <li>Hard stop at 9:00 PM.</li>
+                    <li>Sleep by 10:00 PM maximum.</li>
+                    <li>Sleep deprivation is the single biggest performance killer.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 CLAT 2025 Preparation Roadmap. All rights reserved.</p>
+        <p>Target: AIR < 100 | Zero Compromise Framework</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Strategy & Tracker | CLAT 2025 Roadmap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">CLAT 2025 ROADMAP</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="roadmap.html">Month-wise Plan</a>
+            <a href="daily.html">Daily Timetable</a>
+            <a href="subjects.html">Subject Strategies</a>
+            <a href="mocks.html" class="active">Mock Strategy</a>
+            <a href="revision.html">Revision</a>
+            <a href="rules.html">Hardcore Rules</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Mock Test Strategy</h1>
+            <p style="color: var(--text-muted);">The core of your preparation: 80–100 Full-Length Tests</p>
+        </header>
+
+        <div class="card">
+            <h2>Mock Score Tracker</h2>
+            <form id="mock-form" class="tracker-form">
+                <input type="date" id="mock-date" required>
+                <input type="text" id="mock-name" placeholder="Mock Name (e.g., CL Mock 1)" required>
+                <input type="number" id="mock-score" placeholder="Score (/120)" step="0.25" required>
+                <input type="number" id="mock-accuracy" placeholder="Accuracy (%)" required>
+                <button type="submit" class="primary">Add Mock</button>
+            </form>
+
+            <table id="mock-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Mock Name</th>
+                        <th>Score</th>
+                        <th>Accuracy</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="mock-table-body">
+                    <!-- Mocks will be added here via JS -->
+                </tbody>
+            </table>
+        </div>
+
+        <section>
+            <h2>Mock Analysis Protocol</h2>
+            <p>The mock itself is 25% of the value. The analysis is 75%.</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Step 1: Simulation</h3>
+                    <p>Attempt the mock strictly timed (2 hours). No pausing. Simulate exam conditions.</p>
+                </div>
+                <div class="card">
+                    <h3>Step 2: Perception</h3>
+                    <p>Before seeing answers, write down: perceived difficulty, uncertain questions, estimated score.</p>
+                </div>
+                <div class="card">
+                    <h3>Step 3: Categorization</h3>
+                    <p>Categorize every wrong answer: Concept Gap, Application Error, Careless Mistake, Time Pressure, or Trap Selection.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="mistakes">
+            <h2>Mistake Elimination System</h2>
+            <div class="accordion-item">
+                <div class="accordion-header">Mistake 1: Studying content without attempting questions</div>
+                <div class="accordion-content">
+                    <p>Start attempting questions on Day 1 of each topic. You learn the subject through questions, not theory alone.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Mistake 2: Ignoring Current Affairs until the last 3 months</div>
+                <div class="accordion-content">
+                    <p>CA is 26–28% of CLAT. Daily 45-minute CA habit from Day 1 is non-negotiable.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Mistake 3: Taking mocks but not analyzing them</div>
+                <div class="accordion-content">
+                    <p>Analysis is where learning occurs. A student who takes 50 mocks with deep analysis will outperform a student who takes 100 mocks with no analysis.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Mistake 4: Attempting all questions regardless of accuracy</div>
+                <div class="accordion-content">
+                    <p>Selective, high-accuracy attempts win. Develop your personal "attempt-or-skip" threshold for each subject.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Score Progression Target</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Mock Number</th>
+                        <th>Target Score (/120)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>April</td><td>Mock 1</td><td>55–65</td></tr>
+                    <tr><td>May</td><td>Mock 4</td><td>70–80</td></tr>
+                    <tr><td>June</td><td>Mock 9</td><td>78–88</td></tr>
+                    <tr><td>July</td><td>Mock 20</td><td>88–96</td></tr>
+                    <tr><td>August</td><td>Mock 32</td><td>96–104</td></tr>
+                    <tr><td>September</td><td>Mock 45</td><td>102–110</td></tr>
+                    <tr><td>October</td><td>Mock 62</td><td>108–115</td></tr>
+                    <tr><td>November</td><td>Mock 80+</td><td>112–120</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 CLAT 2025 Preparation Roadmap. All rights reserved.</p>
+        <p>Target: AIR < 100 | Zero Compromise Framework</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
